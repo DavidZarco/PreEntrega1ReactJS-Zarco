@@ -1,5 +1,7 @@
 import React from'react';
 import CartWidget from '../CartWidget/CartWidget'
+
+
 const NavBar = () => {
 return (
 <header className="header">
