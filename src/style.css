@@ -7,9 +7,19 @@ p {
   display: flex;
 }
 .header{
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-size: cover;
+}
+.header ul li a{
+  text-decoration: none;
+  color: violet;
+  font-size: 32px;
+}
+.header ul li{
+    list-style: none;
+    display: flex;
 }

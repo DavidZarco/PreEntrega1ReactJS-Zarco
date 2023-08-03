@@ -1,15 +1,14 @@
 import React from'react';
-
+import CartWidget from '../CartWidget/CartWidget'
 const NavBar = () => {
 return (
 <header className="header">
-      {/* logo de la marca */}
-      <div className="logo-container">
-       
-      </div>
 
       {/* links de navegación */}
       <nav>
+        <h3>
+          Verduleria Rosa
+        </h3>
         <ul className="nav-container">
           <li>
             <a href="/">Inicio</a>
@@ -24,16 +23,8 @@ return (
             <a href="/">Contacto</a>
           </li>
         </ul>
+        <CartWidget />
       </nav>
-
-      {/* selector de lenguaje */}
-      <select className="select-language">
-        <option value="" selected disabled>
-          Language
-        </option>
-        <option value="">Español</option>
-        <option value="">日本語</option>
-      </select>
     </header>
 );
 };
