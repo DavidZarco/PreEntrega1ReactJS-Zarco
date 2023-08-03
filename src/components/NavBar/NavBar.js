@@ -8,9 +8,6 @@ return (
 
       {/* links de navegación */}
       <nav>
-        <h3>
-          Verduleria Rosa
-        </h3>
         <ul className="nav-container">
           <li>
             <a href="/">Inicio</a>
