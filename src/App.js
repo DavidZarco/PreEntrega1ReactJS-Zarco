@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer greeting={'Bienvenida'}/>
+      <ItemListContainer greeting={'Productos a futuro'}/>
 
     </>
   );

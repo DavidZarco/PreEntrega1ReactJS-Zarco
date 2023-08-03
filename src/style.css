@@ -4,7 +4,7 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .navbar{
-  display: flex;
+  justify-content: space-between;
 }
 .header{
   display: block;
@@ -15,10 +15,19 @@ p {
 }
 .header ul li a{
   text-decoration: none;
-  color: blueviolet;
+  color: white;
   font-size: 32px;
 }
 .header ul{
     list-style: none;
     display: flex;
+}
+.header ul li{
+  justify-content: space-between;
+}
+.productosFuturo{
+  text-align: center;
+}
+div img{
+  width: 60px;
 }
