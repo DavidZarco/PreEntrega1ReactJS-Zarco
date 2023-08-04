@@ -9,7 +9,7 @@ p {
 .header{
   display: block;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background-color: beige;
 }
 .header ul li a{
@@ -20,9 +20,6 @@ p {
 .header ul{
     list-style: none;
     display: flex;
-}
-.header ul li{
-  justify-content: space-between;
 }
 .productosFuturo{
   text-align: center;
